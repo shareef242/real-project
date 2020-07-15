@@ -1,6 +1,6 @@
 pipeline {
     environment {
-		VERSION = "$(BUILD_NUMBER)"
+		VERSION = "${BUILD_NUMBER}"
 		PROJECT = "demo-app"
 		IMAGE = "$PROJECT:$VERSION"
 		ECRURL = '077730327954.dkr.ecr.ap-south-1.amazonaws.com/demo-app'
