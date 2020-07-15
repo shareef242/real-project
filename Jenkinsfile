@@ -13,7 +13,7 @@ pipeline {
             steps {
             // Get source code from Gitlab repository
             
-				git 'https://github.com/shareef242/app-depoy-ecr.git'
+				git 'https://github.com/shareef242/real-project.git'
             }
         }
 
